@@ -1,0 +1,36 @@
+📌 TODO API with FastAPI
+
+A simple Task Management REST API built using FastAPI
+.
+This project demonstrates how to create a beginner-friendly API with CRUD operations (Create, Read, Update, Delete) for managing TODO tasks.
+
+🚀 Features
+
+✅ Create a new task
+
+📖 Get all tasks or a single task by ID
+
+✏️ Update existing tasks
+
+❌ Delete tasks
+
+🏠 Root route with welcome message
+
+⚡ Built with FastAPI for speed and simplicity
+
+Requirements-
+1)Python 3.8+
+2)FastAPI
+3)Uvicorn (ASGI server)
+4)Pydantic
+
+After executing the API can run on-
+Server will run on: http://127.0.0.1:8000
+Interactive API Docs: http://127.0.0.1:8000/docs
+Alternative API Docs: http://127.0.0.1:8000/redoc
+
+Future Improvements
+Store tasks in a real database (SQLite/PostgreSQL) instead of in-memory list,
+Add authentication (JWT tokens),
+Add filtering and pagination,
+Deploy to cloud (Heroku, Render, AWS, etc.).
